@@ -31,3 +31,4 @@ artifacts/checkpoints/*.onnx
 .idea/
 .DS_Store
 Thumbs.db
+artifacts/reports/*.png
