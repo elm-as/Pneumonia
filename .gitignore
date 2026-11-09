@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Raw dataset files (stored locally, not in Git)
+data/
+Chest X-Rays in Patients with Pneumonia.txt
+
+# Model Checkpoints & Large Artifacts
+artifacts/checkpoints/*.pth
+artifacts/checkpoints/*.pt
+artifacts/checkpoints/*.onnx
+!artifacts/checkpoints/.gitkeep
+!artifacts/reports/.gitkeep
+
+# Ensure project documentation charts in images/ are tracked
+!images/
+!images/*.png
+
+# Testing and IDEs
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

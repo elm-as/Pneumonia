@@ -1,0 +1,25 @@
+====================================================================
+ CLINICAL RADIOGRAPHIC DIAGNOSTIC AUDIT (TEST COHORT)
+====================================================================
+ Total Test Cohort Patients : 624
+ Diagnostic Accuracy        : 74.52%
+ Sensitivity (Recall)       : 99.23% (Pneumonia Detection)
+ Specificity (TNR)          : 33.33% (Healthy Cleared)
+ Precision (PPV)            : 71.27%
+ F1-Score                   : 0.8296
+ ROC-AUC Score              : 0.9415
+ PR-AUC Score               : 0.9626
+ Brier Calibration Score    : 0.1975
+ Optimal Youden Threshold   : 0.9500
+--------------------------------------------------------------------
+ CONFUSION MATRIX BREAKDOWN:
+   - True Negatives  (Normal -> Normal)       : 78
+   - False Positives (Normal -> Pneumonia)    : 156 (False Alarm)
+   - False Negatives (Pneumonia -> Normal)    : 3 (Critical Miss)
+   - True Positives  (Pneumonia -> Pneumonia) : 387
+--------------------------------------------------------------------
+ PATHOLOGICAL ETIOLOGY RESOLUTION:
+   - NORMAL    : 78/234 correct (33.3%) | Avg Conf: 0.626
+   - BACTERIA  : 239/242 correct (98.8%) | Avg Conf: 0.972
+   - VIRUS     : 148/148 correct (100.0%) | Avg Conf: 0.982
+====================================================================
